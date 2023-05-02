@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responshive Registration Form - 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <div class="form-title">
+            Registration
+        </div>
+        <form action="#" method="post">
+            <div class="form-details hide-scroll">
+                <div class="input-box">
+                    <label class="details">Full Name</label>
+                    <input type="text" placeholder="Enter your name">
+                    <span class="input-error">This field is required</span>
+                </div>
+
+                <div class="input-box">
+                    <label class="details">Username</label>
+                    <input type="text" placeholder="Enter your username">
+                </div>
+
+                <div class="input-box">
+                    <label class="details">Email</label>
+                    <input type="email" placeholder="Enter your email">
+                </div>
+
+                <div class="input-box">
+                    <label class="details">Phone Number</label>
+                    <input type="text" placeholder="Enter your phone number">
+                </div>
+
+                <div class="input-box">
+                    <label class="details">Password</label>
+                    <input type="password" placeholder="Enter your password">
+                </div>
+
+                <div class="input-box">
+                    <label class="details">Confirm Password</label>
+                    <input type="password" placeholder="Confirm your password">
+                </div>
+            </div>
+
+            <div class="gender-details">
+                <input type="radio" name="gender" id="dot-1">
+                <input type="radio" name="gender" id="dot-2">
+                <input type="radio" name="gender" id="dot-3">
+                <span class="gender-title">Gender</span>
+                <div class="category">
+                    <label for="dot-1">
+                        <span class="dot one"></span>
+                        <span class="gender">Male</span>
+                    </label>
+                    <label for="dot-2">
+                        <span class="dot two"></span>
+                        <span class="gender">Female</span>
+                    </label>
+                    <label for="dot-3">
+                        <span class="dot three"></span>
+                        <span class="gender">Prefer not to say</span>
+                    </label>
+                </div>
+                <span class="input-error">This field is required</span>
+            </div>
+
+            <!-- <div class="button"> -->
+                <input type="submit" value="Register" class="button">
+            <!-- </div> -->
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    /* overflow: hidden; */
+    background: #1abc9c;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.form-container{
+    max-width: 440px;
+    place-items: center;
+    padding: 0 20px;
+    /* margin: 170px auto; */
+    margin: auto;
+}
+
+.form-wrapper{
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.form-wrapper .form-title{
+    line-height: 90px;
+    background: #16a085;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.form-wrapper form{
+    padding: 30px 25px 25px 25px;
+}
+
+.form-wrapper form .form-row{
+    height: 45px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.form-wrapper form .form-row input{
+    height: 100%;
+    width: 100%;
+    padding-left: 60px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-wrapper form .form-row input:focus{
+    border-color: #16a085;
+    box-shadow: inset 0px 0px 2px 2px rgba(26, 188, 156, 0.25);
+    transition: 0.3s;
+}
+
+.form-wrapper form .form-row i{
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    background: #16a085;
+    border: 1px solid #16a085;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px 0 0 5px;
+}
+
+.form-wrapper form .pass{
+    margin: -8px 0 20px 0;
+}
+
+.input-error{
+    color: #e74c3c;
+    margin-bottom: 10px;
+}
+
+.form-wrapper form .pass a{
+    color: #16a085;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.form-wrapper form .pass a:hover{
+    text-decoration: underline;
+}
+
+#form-btn{
+    padding-left: 0;
+    background: #16a085;
+    border: 1px solid #16a085;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+#form-btn:hover{
+    background: #12867f;
+}
+
+.form-wrapper form .signup-link{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.form-wrapper form .signup-link a{
+    color: #16a085;
+    transition: 0.3s;
+}
+
+.form-wrapper form .signup-link a:hover{
+    text-decoration: underline;
+}
